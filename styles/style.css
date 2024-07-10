@@ -293,18 +293,49 @@ text-align: center;
 }
 /* footer section */
 .footer-header{
-   min-height:525px ;
+   min-height:330px ;
     background-image: url(../assets/handshake.jpg);
     background-repeat: no-repeat;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
-    padding: 64px 48px 64px 48px;
+    
+    flex-direction: column;
+   align-items: center;
+    
     background-position: center;
     text-align: center;
+    color: rgb(255, 255, 255);
     border-radius: 16px;
 background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
 }
 .items{
-    
+    padding: 64px 48px 64px 48px;
+   
+    width: 1044px;
+height: 186px;
+
+
+}
+.btn-footer{
+
+}
+.seacrch{
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+
+background: rgb(255, 255, 255);
+    width: 548px;
+height: 57px;
+border-radius: 8px;
+}
+.text-f{
+    width: 730px;
+height: 104px;
+}
+.submit{
+    width: 120px;
+height: 57px;
+color: rgb(13, 19, 33);
+border-radius: 8px;
+font-size: 20px;
+font-weight: 600;
 }
