@@ -1,67 +1,225 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 *{
- 
+    max-width: 1140px;
+    margin: 0 auto;
 }
 body{  border: 1px solid red;
     font-family: "Azeret Mono", monospace;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
+  
 }
 /* shared items */
-.fixed-margin{
-margin: 0px 152px 0px 148px;
-}
-
-/* nav items */
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.text-items{
     text-align: center;
+}
+/* nav items */
+.nav-items{
+    
+    border: 2px solid yellow;
+    
+    min-height: 652px;
+    align-content: center;
     
 }
+nav{
+ 
+display: flex;
+justify-content: space-around;
+justify-items: center;
+align-items: center;}
 .nav-paragraph{
-    width: 114px;
-height: 34px;
-font-weight: 800px;
-font-size: 18px;
-border: 2px solid burlywood;
+    width: 124px;
+height: 36px;
+color: rgb(13, 19, 33);
+border: 1px solid salmon;
+font-size: 26px;
+font-weight: 800;
 }
 .btn-primary{
-    width: 180px;
-height: 40px;
-header-content{
+    width: 228px;
+height: 58px;
+}
+.header-section  {
 
-}
-}
-.header-section{
     background-image: url(../assets/Hero-bg.png);
-background-position: center;
-background-repeat: repeat;
+    background-repeat: no-repeat;
 background-size: cover;
+   border: 2px solid aqua; 
 
+}
+  
+.nav-body-items{
+   
+  
+    max-height: 652px;
 }
 .nav-body{
+ 
+    align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    justify-items: center;
-    align-items: center;
-}
-.header-content{
-    font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-color: rgb(13, 19, 33);
+    width: 998px;
+   height: 582px;
+   padding: 20px 25px 20px 25px;
 
-}
+} 
 #nav-button{
-    width: 160px;
-height: 30px;
+    width: 208px;
+height: 66px;
+border-radius: 8px;
+color: rgb(255, 255, 255);
+margin-top: 38px;
 font-size: 20px;
 font-weight: 600;
-color: rgb(255, 255, 255);
-border-radius: 8px;
 background: rgb(13, 19, 33);
+}
+.header{
+    width: 998px;
+height: 136px;
+text-align: center;
+color: rgb(13, 19, 33);
+font-size: 48px;
+font-weight: 800;
+}
+.header-content{
+    width: 852px;
+height: 52px;
+color: rgb(13, 19, 33);
+
+font-size: 16px;
+font-weight: 400;
+} 
+/* body styles */
+body[
+
+]
+/* main items */
+.main-header{
+ 
+  
+   max-height: 1395px;
+   border: 2px solid salmon;
+   border-radius: 16px;
+   background-color: rgba(255, 255, 255, 1);
+   
+}
+.header-items{
+    text-align: center;
+    width: 852px;
+    height: 115px;
+    border: 1px solid blueviolet;
+    margin-top: 80px;
+border-radius: 12px;
+ 
+}
+.header-items-tittle{
+    margin-top: 20px;
+    height: 39px;
+    color: rgb(13, 19, 33);
+
+font-size: 32px;
+font-weight: 800;
+}
+.header-items-paragraph{
+    margin-top: 20px;
+    height: 52px;
+    color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+}
+.airtcles{
+    width: 946px;
+height: 336px;
+display: flex;
+flex-direction: row;
+border: 2px solid maroon;
+justify-content: center;
+align-items: center;
+border-radius: 12px;
+
+}
+.img{
+    width: 259.56px;
+height: 217.01px;
+}
+.main-contant{
+    width: 477px;
+    height: 220px;
+}
+.btn-container{
+    width: 150px;
+height: 40px;
+box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+opacity: 0.7;
+margin-top:6px;
+}
+.main-contant-header{
+    width: 477px;
+    height: 72px;
+color: rgba(13, 19, 33, 0.7);
+padding: 5px;
+font-size: 24px;
+font-weight: 700;
+}
+.main-contant-paragraph{
+margin-top: 10px;
+color: rgb(13, 19, 33);
+
+font-size: 16px;
+font-weight: 400;
+
+}
+/* about  current setyle */
+.about-my-current-target{
+border: 2px solid mediumpurple;
+padding: 10px;
+height: 463px;
+width: 1140px;
+justify-content: center;
+}
+.cureent-target-container{
+display: flex;
+flex-direction: row;
+align-items: center;
+
+
+gap: 10px;
+border: 2px solid yellow;
+background-color: white;
+
+}
+.cureent-skill-1{
+
+align-content: center;
+
+width: 364px;
+height: 300px;
+border-radius: 16px;
+background: rgba(255, 76, 30, 0.05);
+}
+.cureent-skill-2{
+
+    align-content: center;
+    
+    width: 364px;
+    height: 300px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+.cureent-skill-3{
+    align-content: center;
+    width: 364px;
+    height: 300px;
+    border-radius: 16px;
+    border-radius: 16px;
+background: rgba(255, 223, 0, 0.05);
+}
+.header-current{
+    text-align: center;
+    width: 852px;
+height: 115px;
 }
