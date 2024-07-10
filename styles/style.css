@@ -71,11 +71,11 @@ background-size: cover;
 
 } 
 #nav-button{
-    width: 208px;
-height: 66px;
+    width: 220px;
+height: 60px;
 border-radius: 8px;
 color: rgb(255, 255, 255);
-margin-top: 38px;
+
 font-size: 20px;
 font-weight: 600;
 background: rgb(13, 19, 33);
@@ -90,9 +90,8 @@ font-weight: 800;
 }
 .header-content{
     width: 852px;
-height: 52px;
+height: 44px;
 color: rgb(13, 19, 33);
-
 font-size: 16px;
 font-weight: 400;
 } 
@@ -223,6 +222,13 @@ background: rgba(255, 223, 0, 0.05);
     text-align: center;
     width: 852px;
 height: 115px;
+}
+.learn{
+    height: 20px;
+    color: rgb(13, 19, 33);
+
+font-size: 16px;
+font-weight: 700;
 }
 /* media section */
 .media-container{
