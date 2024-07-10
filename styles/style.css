@@ -4,7 +4,7 @@
     margin: 0 auto;
     margin-top: 30px;
 }
-body{  border: 1px solid red;
+body{ 
     font-family: "Azeret Mono", monospace;
   font-optical-sizing: auto;
   font-weight: <weight>;
@@ -19,7 +19,7 @@ body{  border: 1px solid red;
 /* nav items */
 .nav-items{
     
-    border: 2px solid yellow;
+  
     
     min-height: 652px;
     align-content: center;
@@ -48,7 +48,7 @@ height: 58px;
     background-image: url(../assets/Hero-bg.png);
     background-repeat: no-repeat;
 background-size: cover;
-   border: 2px solid aqua; 
+ 
 
 }
   
@@ -100,8 +100,7 @@ font-weight: 400;
 .main-header{
  
   
-   max-height: 1395px;
-   border: 2px solid salmon;
+  
    border-radius: 16px;
    background-color: rgba(255, 255, 255, 1);
    
@@ -110,7 +109,7 @@ font-weight: 400;
     text-align: center;
     width: 852px;
     height: 115px;
-    border: 1px solid blueviolet;
+    
     margin-top: 80px;
 border-radius: 12px;
  
@@ -135,7 +134,7 @@ font-weight: 400;
 height: 336px;
 display: flex;
 flex-direction: row;
-border: 2px solid maroon;
+
 justify-content: center;
 align-items: center;
 border-radius: 12px;
@@ -153,7 +152,7 @@ height: 217.01px;
     width: 150px;
 height: 40px;
 box-sizing: border-box;
-border: 1px solid rgb(13, 19, 33);
+
 opacity: 0.7;
 margin-top:6px;
 }
@@ -188,7 +187,7 @@ align-items: center;
 
 
 gap: 10px;
-border: 2px solid yellow;
+
 background-color: white;
 
 }
@@ -232,7 +231,7 @@ height: 777px;
     text-align: center;
     width: 852px;
 height: 115px; 
-border: 2px solid navy;
+
 
 }
 .media-head{
@@ -254,18 +253,18 @@ height: 52px;
     width: 1140px;
     height: 614px;
     box-sizing: border-box;
-    border: 1px solid rgba(13, 19, 33, 0.2);
+   ;
     border-radius: 16px;
 }
 /* my next learning target */
 .my-next-target{
 max-height: 870px;
-    border: 2px goldenrod;
+    
    
 }
 .next-target-hd{
     height: 115px;
-    border:2px solid violet;
+  
     text-align: center
 }
 .next-target-description{
@@ -338,4 +337,14 @@ color: rgb(13, 19, 33);
 border-radius: 8px;
 font-size: 20px;
 font-weight: 600;
+}
+.footer{
+    height: 100px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.footer-items{
+    height: 36px;
 }
